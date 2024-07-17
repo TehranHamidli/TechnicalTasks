@@ -1,6 +1,7 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 interface Student {
+
   id: string;
   name: string;
   surname: string;
