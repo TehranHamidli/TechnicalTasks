@@ -42,7 +42,7 @@ const ScoresTable: React.FC = () => {
       setOpenDeleteDialog(true);
     }
   };
-
+// test
   const confirmDelete = () => {
     dispatch(removeScore(selectedScore.id));
     setOpenDeleteDialog(false);
